@@ -10,7 +10,7 @@ export const shorturl =async(req,res)=>{
         shortCode,longurl
     })
     await newurl.save();
-    console.log("short saved" , newurl)
+   // console.log("short saved" , newurl)
     res.render("index.ejs" ,{shorturl})
     
 
